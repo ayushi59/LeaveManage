@@ -4,12 +4,9 @@ import { Redirect } from "react-router-dom";
 import { loginUser } from "../actions";
 import { withStyles } from "@material-ui/styles";
 
-import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
-import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
 
 const styles = () => ({
@@ -44,9 +41,12 @@ class Login extends Component {
       return <Redirect to="/" />;
     } else {
       return (
-        <Container className="LoginDiv1" >
-          <div className={classes.paper}>
-            <Typography component="h1" variant="h5">
+        <React.Fragment>
+          <div className="LoginDiv1" >
+          <div className="LoginDiv2">
+            <div className="HalfDiv1"></div>
+            <div className="HalfDiv2">
+            <Typography component="h1" variant="h3">
               Sign in
             </Typography>
             <TextField
@@ -57,6 +57,7 @@ class Login extends Component {
               name="email"
               onChange={this.handleEmailChange}
             />
+            <br />
             <TextField
               variant="outlined"
               margin="normal"
@@ -82,7 +83,9 @@ class Login extends Component {
               Sign In
             </Button>
           </div>
-        </Container>
+          </div>
+          </div>
+        </React.Fragment>
       );
     }
   }

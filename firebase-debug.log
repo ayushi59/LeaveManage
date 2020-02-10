@@ -179,3 +179,142 @@
 [debug] [2020-02-10T11:47:25.644Z] [work-queue] {"queueLength":0,"workRunningCount":0}
 [debug] [2020-02-10T12:12:05.946Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: exited
 [debug] [2020-02-10T12:12:05.947Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: FINISHED
+[debug] [2020-02-10T12:25:25.397Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T12:25:25.401Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ayushi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-10T12:25:25.401Z] CLI Version:   7.12.1
+[debug] [2020-02-10T12:25:25.401Z] Platform:      win32
+[debug] [2020-02-10T12:25:25.401Z] Node Version:  v10.16.2
+[debug] [2020-02-10T12:25:25.403Z] Time:          Mon Feb 10 2020 17:55:25 GMT+0530 (India Standard Time)
+[debug] [2020-02-10T12:25:25.403Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T12:25:25.403Z] 
+[debug] [2020-02-10T12:25:25.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-10T12:25:25.450Z] > authorizing via signed-in user
+[debug] [2020-02-10T12:25:25.450Z] [iam] checking project leave-management-teachers for permissions ["firebase.projects.get"]
+[debug] [2020-02-10T12:25:25.453Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/leave-management-teachers:testIamPermissions  
+
+[debug] [2020-02-10T12:25:41.052Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T12:25:41.054Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers  
+ 
+[debug] [2020-02-10T12:25:41.595Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Ayushi\Desktop\LeaveManage'...
+[info] 
+[debug] [2020-02-10T12:25:41.604Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers/webApps/-/config  
+ 
+[debug] [2020-02-10T12:25:42.673Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Ayushi\Desktop\LeaveManage\functions" for Cloud Functions...
+[debug] [2020-02-10T12:25:44.223Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-10T12:25:44.224Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-10T12:25:44.224Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-10T12:25:44.224Z] [worker-~diagnostic~-164cc0ee-9a2f-4d8d-a4b1-d599d7c0e00c]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13848
+[debug] [2020-02-10T12:25:44.225Z] [worker-~diagnostic~-164cc0ee-9a2f-4d8d-a4b1-d599d7c0e00c]: BUSY
+[debug] [2020-02-10T12:25:45.870Z] [runtime-status] [13848] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T12:25:45.872Z] [runtime-status] [13848] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T12:25:45.878Z] [runtime-status] [13848] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T12:25:45.881Z] [runtime-status] [13848] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T12:25:45.883Z] [runtime-status] [13848] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[helloWorld]: http function initialized (http://localhost:5001/leave-management-teachers/us-central1/helloWorld).
+[debug] [2020-02-10T12:25:45.976Z] [worker-~diagnostic~-164cc0ee-9a2f-4d8d-a4b1-d599d7c0e00c]: IDLE
+[debug] [2020-02-10T12:27:05.025Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T12:27:05.025Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T12:27:05.026Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T12:27:05.050Z] [worker-pool] addWorker(helloWorld)
+[debug] [2020-02-10T12:27:05.050Z] [worker-pool] Adding worker with key helloWorld, total=1
+[debug] [2020-02-10T12:27:05.050Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T12:27:05.050Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:05.050Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: BUSY
+[debug] [2020-02-10T12:27:05.695Z] [runtime-status] [13532] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T12:27:05.697Z] [runtime-status] [13532] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T12:27:05.702Z] [runtime-status] [13532] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T12:27:05.704Z] [runtime-status] [13532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T12:27:05.706Z] [runtime-status] [13532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T12:27:05.773Z] [runtime-status] [13532] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T12:27:05.774Z] [runtime-status] [13532] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T12:27:05.774Z] [runtime-status] [13532] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T12:27:05.778Z] [runtime-status] [13532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:05.799Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T12:27:05.816Z] [runtime-status] [13532] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T12:27:05.826Z] [runtime-status] [13532] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T12:27:05.844Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: IDLE
+[debug] [2020-02-10T12:27:05.844Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T12:27:25.300Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T12:27:25.300Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T12:27:25.300Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T12:27:25.301Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T12:27:25.301Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:25.301Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: BUSY
+[debug] [2020-02-10T12:27:25.303Z] [runtime-status] [13532] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T12:27:25.307Z] [runtime-status] [13532] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T12:27:25.307Z] [runtime-status] [13532] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T12:27:25.309Z] [runtime-status] [13532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:25.316Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T12:27:25.330Z] [runtime-status] [13532] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T12:27:25.370Z] [runtime-status] [13532] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T12:27:25.374Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: IDLE
+[debug] [2020-02-10T12:27:25.376Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T12:27:25.392Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T12:27:25.392Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T12:27:25.393Z] Accepted request POST /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T12:27:25.393Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T12:27:25.393Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:25.393Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: BUSY
+[debug] [2020-02-10T12:27:25.397Z] [runtime-status] [13532] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T12:27:25.402Z] [runtime-status] [13532] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T12:27:25.403Z] [runtime-status] [13532] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T12:27:25.403Z] [runtime-status] [13532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:27:25.406Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T12:27:25.542Z] [runtime-status] [13532] Ephemeral server handling POST request
+[info] >  User logged in. Email: test@test.com password: test1234
+[debug] [2020-02-10T12:27:25.547Z] [runtime-status] [13532] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T12:27:25.551Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: IDLE
+[debug] [2020-02-10T12:27:25.551Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T12:28:57.406Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T12:28:57.407Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T12:28:57.407Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T12:28:57.407Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T12:28:57.408Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:28:57.408Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: BUSY
+[debug] [2020-02-10T12:28:57.410Z] [runtime-status] [13532] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T12:28:57.414Z] [runtime-status] [13532] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T12:28:57.414Z] [runtime-status] [13532] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T12:28:57.415Z] [runtime-status] [13532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:28:57.423Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T12:28:57.431Z] [runtime-status] [13532] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T12:28:57.437Z] [runtime-status] [13532] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T12:28:57.446Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: IDLE
+[debug] [2020-02-10T12:28:57.447Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T12:28:57.452Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T12:28:57.454Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T12:28:57.454Z] Accepted request POST /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T12:28:57.455Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T12:28:57.455Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:28:57.455Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: BUSY
+[debug] [2020-02-10T12:28:57.457Z] [runtime-status] [13532] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T12:28:57.460Z] [runtime-status] [13532] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T12:28:57.461Z] [runtime-status] [13532] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T12:28:57.462Z] [runtime-status] [13532] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\13532
+[debug] [2020-02-10T12:28:57.466Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T12:28:57.477Z] [runtime-status] [13532] Ephemeral server handling POST request
+[info] >  User logged in. Email: test@test.b password: test1234
+[debug] [2020-02-10T12:28:57.490Z] [runtime-status] [13532] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T12:28:57.494Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: IDLE
+[debug] [2020-02-10T12:28:57.495Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T13:08:25.707Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: exited
+[debug] [2020-02-10T13:08:25.708Z] [worker-helloWorld-f8b30633-67af-408a-aaaf-d240731029a0]: FINISHED
