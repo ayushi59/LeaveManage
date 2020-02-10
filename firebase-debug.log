@@ -1,0 +1,181 @@
+[debug] [2020-02-10T10:22:03.926Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T10:22:03.928Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ayushi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-10T10:22:03.929Z] CLI Version:   7.12.1
+[debug] [2020-02-10T10:22:03.929Z] Platform:      win32
+[debug] [2020-02-10T10:22:03.929Z] Node Version:  v10.16.2
+[debug] [2020-02-10T10:22:03.930Z] Time:          Mon Feb 10 2020 15:52:03 GMT+0530 (India Standard Time)
+[debug] [2020-02-10T10:22:03.930Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T10:22:03.930Z] 
+[debug] [2020-02-10T10:22:03.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-10T10:22:03.943Z] > authorizing via signed-in user
+[debug] [2020-02-10T10:22:03.944Z] [iam] checking project leave-management-teachers for permissions ["firebase.projects.get"]
+[debug] [2020-02-10T10:22:03.946Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/leave-management-teachers:testIamPermissions  
+
+[debug] [2020-02-10T10:22:06.269Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T10:22:06.278Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers  
+ 
+[debug] [2020-02-10T10:22:07.977Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront'...
+[info] 
+[debug] [2020-02-10T10:22:08.020Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers/webApps/-/config  
+ 
+[debug] [2020-02-10T10:22:09.522Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions" for Cloud Functions...
+[debug] [2020-02-10T10:22:10.704Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-10T10:22:10.705Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-10T10:22:10.705Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-10T10:22:10.707Z] [worker-~diagnostic~-03265ee6-e40c-4393-bae9-413e3794934b]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions\7668
+[debug] [2020-02-10T10:22:10.709Z] [worker-~diagnostic~-03265ee6-e40c-4393-bae9-413e3794934b]: BUSY
+[debug] [2020-02-10T10:22:11.789Z] [runtime-status] [7668] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T10:22:11.795Z] [runtime-status] [7668] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T10:22:11.808Z] [runtime-status] [7668] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T10:22:11.813Z] [runtime-status] [7668] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T10:22:11.815Z] [runtime-status] [7668] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[helloWorld]: http function initialized (http://localhost:5001/leave-management-teachers/us-central1/helloWorld).
+[debug] [2020-02-10T10:22:11.995Z] [worker-~diagnostic~-03265ee6-e40c-4393-bae9-413e3794934b]: IDLE
+[debug] [2020-02-10T10:22:18.636Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T10:22:18.637Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T10:22:18.639Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T10:22:18.698Z] [worker-pool] addWorker(helloWorld)
+[debug] [2020-02-10T10:22:18.698Z] [worker-pool] Adding worker with key helloWorld, total=1
+[debug] [2020-02-10T10:22:18.698Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T10:22:18.699Z] [worker-helloWorld-f4256658-350e-435a-9fb1-832b26b14330]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions\5212
+[debug] [2020-02-10T10:22:18.699Z] [worker-helloWorld-f4256658-350e-435a-9fb1-832b26b14330]: BUSY
+[debug] [2020-02-10T10:22:19.606Z] [runtime-status] [5212] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T10:22:19.610Z] [runtime-status] [5212] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T10:22:19.617Z] [runtime-status] [5212] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T10:22:19.619Z] [runtime-status] [5212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T10:22:19.621Z] [runtime-status] [5212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T10:22:19.720Z] [runtime-status] [5212] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T10:22:19.722Z] [runtime-status] [5212] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T10:22:19.722Z] [runtime-status] [5212] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T10:22:19.732Z] [runtime-status] [5212] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions\5212
+[debug] [2020-02-10T10:22:19.750Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T10:22:19.765Z] [runtime-status] [5212] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T10:22:19.779Z] [runtime-status] [5212] Ephemeral server survived.
+[debug] [2020-02-10T10:22:19.787Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2020-02-10T10:22:19.787Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-02-10T10:22:19.788Z] Accepted request POST /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T10:22:19.821Z] [worker-pool] addWorker(helloWorld)
+[debug] [2020-02-10T10:22:19.821Z] [worker-pool] Adding worker with key helloWorld, total=2
+[debug] [2020-02-10T10:22:19.822Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T10:22:19.822Z] [worker-helloWorld-b6e028ec-a575-4b82-85c4-a861b3736a8c]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions\10192
+[debug] [2020-02-10T10:22:19.822Z] [worker-helloWorld-b6e028ec-a575-4b82-85c4-a861b3736a8c]: BUSY
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T10:22:19.823Z] [worker-helloWorld-f4256658-350e-435a-9fb1-832b26b14330]: IDLE
+[debug] [2020-02-10T10:22:19.823Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T10:22:20.652Z] [runtime-status] [10192] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T10:22:20.655Z] [runtime-status] [10192] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T10:22:20.662Z] [runtime-status] [10192] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T10:22:20.664Z] [runtime-status] [10192] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T10:22:20.666Z] [runtime-status] [10192] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManagement\\leavemgmntfront\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T10:22:20.779Z] [runtime-status] [10192] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T10:22:20.781Z] [runtime-status] [10192] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T10:22:20.781Z] [runtime-status] [10192] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T10:22:20.789Z] [runtime-status] [10192] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManagement\leavemgmntfront\functions\10192
+[debug] [2020-02-10T10:22:20.802Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T10:22:20.858Z] [runtime-status] [10192] Ephemeral server handling POST request
+[info] >  User logged in. Email: test@test.com password: test1234
+[debug] [2020-02-10T10:22:20.876Z] [runtime-status] [10192] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T10:22:20.895Z] [worker-helloWorld-b6e028ec-a575-4b82-85c4-a861b3736a8c]: IDLE
+[debug] [2020-02-10T10:22:20.895Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T10:24:13.525Z] [worker-helloWorld-b6e028ec-a575-4b82-85c4-a861b3736a8c]: exited
+[debug] [2020-02-10T10:24:13.526Z] [worker-helloWorld-b6e028ec-a575-4b82-85c4-a861b3736a8c]: FINISHED
+[debug] [2020-02-10T11:45:06.386Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T11:45:06.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ayushi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-10T11:45:06.388Z] CLI Version:   7.12.1
+[debug] [2020-02-10T11:45:06.388Z] Platform:      win32
+[debug] [2020-02-10T11:45:06.388Z] Node Version:  v10.16.2
+[debug] [2020-02-10T11:45:06.389Z] Time:          Mon Feb 10 2020 17:15:06 GMT+0530 (India Standard Time)
+[debug] [2020-02-10T11:45:06.389Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T11:45:06.389Z] 
+[debug] [2020-02-10T11:45:06.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-10T11:45:06.403Z] > authorizing via signed-in user
+[debug] [2020-02-10T11:45:06.403Z] [iam] checking project leave-management-teachers for permissions ["firebase.projects.get"]
+[debug] [2020-02-10T11:45:06.405Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-10T11:45:06.405Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-10T11:45:06.656Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T11:45:07.847Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/leave-management-teachers:testIamPermissions  
+
+[debug] [2020-02-10T11:45:09.678Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T11:45:09.681Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers  
+ 
+[debug] [2020-02-10T11:45:10.320Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Ayushi\Desktop\LeaveManage'...
+[info] 
+[debug] [2020-02-10T11:45:10.340Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/leave-management-teachers/webApps/-/config  
+ 
+[debug] [2020-02-10T11:45:11.371Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Ayushi\Desktop\LeaveManage\functions" for Cloud Functions...
+[debug] [2020-02-10T11:45:14.564Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-10T11:45:14.565Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-10T11:45:14.565Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-10T11:45:14.568Z] [worker-~diagnostic~-e158318b-ac7b-4279-9404-3b3445413465]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\12564
+[debug] [2020-02-10T11:45:14.569Z] [worker-~diagnostic~-e158318b-ac7b-4279-9404-3b3445413465]: BUSY
+[debug] [2020-02-10T11:45:17.076Z] [runtime-status] [12564] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T11:45:17.081Z] [runtime-status] [12564] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T11:45:17.285Z] [runtime-status] [12564] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T11:45:17.348Z] [runtime-status] [12564] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T11:45:17.350Z] [runtime-status] [12564] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[helloWorld]: http function initialized (http://localhost:5001/leave-management-teachers/us-central1/helloWorld).
+[debug] [2020-02-10T11:45:19.333Z] [worker-~diagnostic~-e158318b-ac7b-4279-9404-3b3445413465]: IDLE
+[debug] [2020-02-10T11:46:51.251Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T11:46:51.252Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T11:46:51.254Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T11:46:52.194Z] [worker-pool] addWorker(helloWorld)
+[debug] [2020-02-10T11:46:52.194Z] [worker-pool] Adding worker with key helloWorld, total=1
+[debug] [2020-02-10T11:46:52.195Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T11:46:52.195Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\12424
+[debug] [2020-02-10T11:46:52.196Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: BUSY
+[debug] [2020-02-10T11:46:53.984Z] [runtime-status] [12424] Functions runtime initialized. {"cwd":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions","node_version":"10.16.2"}
+[debug] [2020-02-10T11:46:53.986Z] [runtime-status] [12424] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-10T11:46:53.993Z] [runtime-status] [12424] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-10T11:46:53.995Z] [runtime-status] [12424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T11:46:53.997Z] [runtime-status] [12424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Ayushi\\Desktop\\LeaveManage\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-10T11:46:54.068Z] [runtime-status] [12424] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T11:46:54.069Z] [runtime-status] [12424] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T11:46:54.069Z] [runtime-status] [12424] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T11:46:54.073Z] [runtime-status] [12424] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\12424
+[debug] [2020-02-10T11:46:54.082Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T11:46:54.092Z] [runtime-status] [12424] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T11:46:54.101Z] [runtime-status] [12424] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T11:46:54.108Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: IDLE
+[debug] [2020-02-10T11:46:54.108Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T11:47:25.539Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-10T11:47:25.540Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-10T11:47:25.540Z] Accepted request OPTIONS /leave-management-teachers/us-central1/helloWorld --> helloWorld
+[debug] [2020-02-10T11:47:25.541Z] [worker-pool] submitWork(triggerId=helloWorld)
+[debug] [2020-02-10T11:47:25.541Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: Assigning socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\12424
+[debug] [2020-02-10T11:47:25.542Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: BUSY
+[debug] [2020-02-10T11:47:25.544Z] [runtime-status] [12424] Trigger "helloWorld" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2020-02-10T11:47:25.549Z] [runtime-status] [12424] triggerDefinition {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2020-02-10T11:47:25.550Z] [runtime-status] [12424] Running helloWorld in mode HTTPS
+[debug] [2020-02-10T11:47:25.551Z] [runtime-status] [12424] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ayushi\Desktop\LeaveManage\functions\12424
+[debug] [2020-02-10T11:47:25.560Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-10T11:47:25.574Z] [runtime-status] [12424] Ephemeral server handling OPTIONS request
+[info] >  User logged in. Email: undefined password: undefined
+[debug] [2020-02-10T11:47:25.589Z] [runtime-status] [12424] Ephemeral server survived.
+[info] i  functions: Finished "helloWorld" in ~1s
+[debug] [2020-02-10T11:47:25.643Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: IDLE
+[debug] [2020-02-10T11:47:25.644Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-10T12:12:05.946Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: exited
+[debug] [2020-02-10T12:12:05.947Z] [worker-helloWorld-adf9ab03-bd6f-4d44-84b8-a713139ddbd9]: FINISHED
