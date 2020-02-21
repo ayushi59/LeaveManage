@@ -9,6 +9,7 @@ import {
     VERIFY_SUCCESS
   } from "../actions/";
   
+  
   export default (
     state = {
       isLoggingIn: false,
